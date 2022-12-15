@@ -1,0 +1,415 @@
+/* 
+    TABLE OF CONTENT
+    ================
+    1.
+*/
+:root{
+    --main-color: #E90024;
+    --heading-color: #1E1E1E;
+    --primary-color: #787878;
+}
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,li{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,a,p,ul,li,button,i{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+h2{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    color: var(--heading-color);
+    padding-bottom: 20px;
+}
+h3{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--heading-color);
+    padding-bottom: 30px;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--primary-color);
+}
+.cbtn{
+    width: 180px;
+    height: 56px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 56px;
+    transition: .5s;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+.footer_form .cbtn,
+.pump_insta_items:hover .cbtn,
+.cbtn:hover{
+    background: var(--main-color);
+    color: #fff;
+}
+/* ------manu part css------ */
+#myNav ul li a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--primary-color);
+    margin: 0 25px;
+    transition: .5s;
+}
+#myNav i:hover,
+#myNav .active,
+#myNav ul li a:hover{
+    color: var(--main-color);
+}
+.main_menu a img{
+    padding: 40px 0;
+}
+#myNav i{
+    display: inline-block;
+    color: var(--primary-color);
+    font-size: 18px;
+    margin: 0 11px;
+    transition: .5s;
+}
+#myNav .shop{
+    margin-right: 24px;
+}
+.menu_btn{
+    width: 150px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 56px;
+    text-align: center;
+    border-radius: 5px;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    background: transparent;
+    transition: .5s;
+}
+.menu_btn:hover{
+    background: var(--main-color);
+    color: #fff;
+}
+.menuFix{
+    background: #fff;
+    -webkit-box-shadow: 0 22px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 22px 20px rgba(0, 0, 0, 0.05);
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: -40px;
+    transform: translateY(40px);
+    transition: transform .3s;
+}
+/* ---------hero part css--------- */
+#hero_part{
+    padding: 40px 0 110px 0;
+    overflow: hidden;
+}
+.hero_content h1{
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 85px;
+    color: var(--heading-color);
+    padding-bottom: 20px;
+}
+.hero_img_wrapper{
+    position: relative;
+}
+.hero_content h1 span{
+    color: var(--main-color);
+}
+.hero_content p{
+    padding:0 240px 30px 0;
+}
+.hero_img img{
+    margin-left: -165px;
+}
+.hero_img_wrapper .hero_dots {
+    position: absolute;
+    left: 100%;
+    top: 28%;
+    z-index: -1;
+}
+/* -----------instagram like part css----------- */
+#instagram_like{
+    padding-bottom: 70px;
+}
+#instagram_like .container{
+    background: #f4f4f4;
+    border-radius: 30px;
+    padding: 97px 0;
+    position: relative;
+}
+.counter_part{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.counter_items h2{
+    padding-bottom: 8px;
+}
+.instagram_like_dots{
+    position: absolute;
+    top: 100%;
+    z-index: -1;
+    left: 0;
+    transform: translate(-38%,-69%);
+}
+/* -- -------insta work part css-------- -- */
+#insta_work{
+    padding: 80px 0;
+}
+.section_heading{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.insta_work_items{
+    padding: 91px 61px 84px 60px ;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.04);
+    border-radius: 30px;
+}
+.insta_work_items h3{
+    padding: 39px 0 39px 0;
+}
+/* -- -------insta video part css-------- -- */
+#insta_video {
+    padding: 70px 0 100px 0;
+}
+.insta_vid_wrapper{ 
+    position: relative;
+}
+.insta_vid_wrapper .overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+/* -- -------insta choose part css-------- -- */
+#insta_choose{
+    background: #f4f4f4;
+    padding: 80px 0;
+    z-index: 1;
+}
+#insta_choose .insta_work_items{
+    padding: 50px 67px;
+    height: 505px;
+}
+#insta_choose .container{
+    position: relative;
+}
+#insta_choose .container .choose_icon_shap{
+    position: absolute;
+    left: 100%;
+    top: -150px;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+/*---------pump instra work part--------- */
+#pump_instra_work{
+    padding: 120px 0;
+}
+.pump_insta_items{
+    padding: 65px 85px;
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.04);
+
+}
+.pump_insta_btn:hover{
+    color: var(--main-color);
+}
+.pump_insta_btn{
+    color: var(--main-color);
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    height: 48px;
+    width: 214px;
+    background: rgba(233, 0, 36, 0.1);
+    border-radius: 5px;
+    line-height: 48px;
+    display: block;
+    margin: 0 auto 50px auto;
+}
+.pump_insta_items p i{
+    color: #5EBD78;
+    margin-right: 15px;
+}
+.pump_insta_items p{
+    padding-bottom: 17px;
+}
+.pump_insta_items h2{
+    padding: 16px 0 43px 0;
+    text-align: left;
+    transition: .5s;
+}
+.pump_insta_items .cbtn{
+    display: block;
+    margin: auto;
+}
+.pump_insta_items:hover h2{
+    color: var(--main-color);
+}
+#pump_instra_work .container{
+    position: relative;
+}
+.pump_section_icon{
+    position: absolute;
+    top: -20px;
+    left: 100%;
+    transform: translateX(-100%);
+}
+/* ---------customer part css--------- */
+#customer_part{
+    padding: 20px 0 80px 0;
+}
+.customer_items{
+    padding: 41px 41px 25px 41px;
+    box-shadow: 0 0 5px var(--primary-color);
+    border-radius: 30px;
+    margin: 5px;
+}
+.customers{
+    padding: 0 10px;
+}
+.customer_items h3 span {
+    margin: 5px 0 0 29px;
+}
+.customer_items h3 {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.customer_items img{
+    margin-right: 20px;
+}
+.customer_content{
+    padding: 35px 44px;
+    background: #F4F4F4;
+    border-radius: 10px;
+}
+.customer_content i{
+    color: #FFA723;
+    padding-bottom: 20px;
+}
+.customer_items_btm{
+    margin-top: 20px;
+}
+.customer_items_btm i{
+    color: var(--primary-color);
+    margin-right: 10px;
+}
+.customer_items_btm img{
+    float: right;
+    margin-right: 0;
+}
+/* ---------our service part css-------- */
+#our_service_part{
+    padding: 80px 0 120px 0;
+}
+#our_service_part .accordion-item{
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 4px;
+}
+#our_service_part .accordion-item h3{
+    padding: 0;
+}
+#our_service_part .accordion-button{
+    background: #fff;
+    border: 0;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+#our_service_part .accordion-button:focus{
+    background: #fff;
+    border: none;
+    color: var(--main-color);
+    box-shadow: 0 0 0;
+}
+
+/* --------footer part css------- */
+#footer_part{
+    padding: 150px 0;
+    background: #f4f4f4;
+}
+.footer_logo p {
+    padding: 20px 38px 15px 0;
+}
+.footer_logo i{
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+}
+.f{
+    background: #00B2FF;
+}
+.in{
+    background: #2489BE;
+    margin-left: 5px;
+}
+.footer_content ul li a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--primary-color);
+    padding: 10px 0;
+}
+.footer_form label{
+    margin-top: 20px;
+    display: flex;
+}
+.input_form{
+    padding: 15px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+.slider_items{
+    margin: 0 15px;
+}
+
+/* backtop btn */
+.backtop{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    background: var(--main-color);
+    color: #fff;
+}

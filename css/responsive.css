@@ -1,0 +1,505 @@
+@media (min-width:1400px){
+    #insta_choose .container .choose_icon_shap {
+        left: 97%;
+    }
+    .main_menu .smle_menu{
+        display: none !important;
+    }
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+    #insta_choose .container .choose_icon_shap {
+        left: 96%;
+    }
+    .hero_content h1 {
+        font-size: 61px;
+    }
+    .hero_img img {
+        margin-left: -136px;
+        width: 750px;
+    }
+    .insta_work_items {
+        padding: 61px 29px 59px 29px;
+    }
+    .insta_work_items h3 {
+        padding: 28px 0;
+    }
+    #insta_choose .insta_work_items {
+        padding: 42px 53px;
+    }
+    .pump_insta_items {
+        padding: 50px 64px;
+    }
+    h2{
+        font-size: 43px;
+    }
+    h3{
+        font-size: 23px;
+    }
+    .customer_items img {
+        margin-right: 6px;
+    }
+    .customer_items {
+        padding: 32px 33px 25px 34px;
+    }
+    .customer_items h3 span {
+        float: right;
+        margin: 7px 0 0 21px;
+    }
+    .customer_content {
+        padding: 24px 21px;
+        background: #F4F4F4;
+        border-radius: 10px;
+    }
+    .customer_items h3{
+        font-size: 22px;
+    }
+    .footer_content{
+        padding-left: 40px;
+    }
+    .main_menu .smle_menu{
+        display: none !important;
+    }
+}
+@media (max-width:1399.98px){
+    .insta_vid_wrapper .img_video{
+        width: 100%;
+    }
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    .hero_content p {
+        padding: 0px 63px 30px 0;
+    }
+    .hero_content h1 {
+        font-size: 51px;
+        line-height: 73px;
+    }
+    .hero_img img {
+        margin-left: -72px;
+        width: 588px;
+    }
+    #myNav ul li a {
+        margin: 0 7px;
+    }
+    .main_menu a img {
+        padding: 19px 0;
+    }
+    #hero_part {
+        padding: 20px 0 76px 0;
+    }
+    .counter_items h2 {
+        padding-bottom: 6px;
+    }
+    h2{
+        font-size: 34px;
+    }
+    #instagram_like .container {
+        padding: 72px 0;
+    }
+    #insta_choose .container .choose_icon_shap {
+        left: 94%;
+        top: -150px;
+    }
+    .insta_work_items {
+        padding: 37px 29px 36px 33px;
+    }
+    .insta_work_items h3 {
+        padding: 28px 0;
+    }
+    #insta_choose .insta_work_items {
+        padding: 27px 21px;
+        height: 505px;
+    }
+    .pump_insta_items {
+        padding: 35px 26px;
+    }
+    .pump_insta_items h2 {
+        padding: 0px 0 13px 0;
+    }
+    .pump_insta_btn {
+        margin: 0 auto 30px auto;
+    }
+    #pump_instra_work {
+        padding: 71px 0;
+    }
+    .customer_items h3 span {
+        margin: 5px 0 0 6px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    .customer_items {
+        padding: 22px 11px 14px 9px;
+    }
+    .customer_items h3 img {
+        margin-right: 10px;
+        width: 58px;
+    }
+    .customer_content {
+        padding: 14px 14px;
+    }
+    #insta_choose .insta_work_items {
+        height: 464px;
+    }
+    #footer_part {
+        padding: 82px 0;
+    }
+    .input_form {
+        padding: 15px;
+        border: none;
+        border-radius: 5px 0 0 5px;
+        width: 200px;
+    }
+    .footer_content {
+        padding-left: 16px;
+    }
+    .main_menu .smle_menu{
+        display: none !important;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+    .pump_insta_items {
+        padding: 30px 42px;
+        margin: 15px 0;
+    }
+    .pump_insta_btn{
+        margin-bottom: 30px;
+    }
+    .pump_insta_items h2 {
+        padding: 2px 0 21px 0;
+    }
+    #pump_instra_work {
+        padding: 35px 0;
+    }
+    .customer_items {
+        padding: 18px 16px 7px 16px;
+    }
+    .customer_items h3 span {
+        margin: 5px 0 0 9px;
+    }
+    .customer_items img {
+        margin-right: 5px;
+    }
+    .customer_content {
+        padding: 24px 33px;
+    }
+    #our_service_part {
+        padding: 12px 0 61px 0;
+    }
+}
+@media (max-width:991.98px){
+    .menu_logo_sm{
+        margin: auto;
+    }
+    .menu_btn {
+        width: 122px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .main_menu a img {
+        padding: 0px 0;
+    }
+    .main_menu .navbar-collapse {
+        position: absolute;
+        width: 100%;
+        top: 98px;
+        z-index: 999;
+        background: #fff;
+        -webkit-box-shadow: 0 22px 20px rgb(0 0 0 / 5%);
+        box-shadow: 0 22px 20px rgba(14, 14, 14, 0.05);
+    }
+
+    #myNav .icon_m{
+        margin: 15px 0 30px 10px;
+    }
+    .hero_img img {
+        margin: 0;
+        width: 100%;
+    }
+    .hero_content h1 {
+        font-size: 50px;
+        line-height: 63px;
+    }
+    .hero_content p{
+        padding: 0 0 15px 0;
+    }
+    .hero_content{
+        text-align: center;
+        padding: 40px 110px 0 110px;
+    }
+    #insta_choose .container .choose_icon_shap {
+        left: 50%;
+    }
+    h2{
+        font-size: 34px;
+    }
+    #instagram_like .container {
+        padding: 40px 15px;
+    }
+    #instagram_like {
+        padding-bottom: 15px;
+    }
+    p{
+        font-size: 15px;
+    }
+    #insta_work {
+        padding: 56px 0;
+    }
+    #insta_video {
+        padding: 26px 0 100px 0;
+    }
+    #insta_choose .insta_work_items {
+        padding: 50px 67px;
+        height: 330px;
+    }
+    .insta_work_items h3 {
+        padding: 24px 0;
+    }
+    .main_menu button{
+        border: 1px solid #E90024;
+    }
+    .main_menu button i{
+        color: #E90024;
+    }
+    .main_menu .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    #myNav ul li a {
+        margin: 0 10px;
+    }
+    .insta_work_items {
+        padding: 41px 28px 33px 27px;
+        margin: 10px 0;
+    }
+    .footer_form .cbtn{
+        width: 78px;
+        font-size: 15px;
+    }
+    .input_form {
+        width: 172px;
+    }
+}
+@media (min-width:576px) and (max-width:767.98px){
+    .hero_content h1 {
+        font-size: 48px;
+    }
+    .hero_content {
+        padding: 38px 41px 0 40px;
+    }
+    #hero_part {
+        padding: 16px 0 66px 0;
+    }
+    br{
+        display: none;
+    }
+    #insta_choose .insta_work_items {
+        padding: 28px 37px;
+        height: 330px;
+    }
+    .pump_section_icon {
+        display: none;
+    }
+    #pump_instra_work .pump_sml{
+        padding: 0 60px;
+    }
+    .pump_insta_items {
+        padding: 40px 68px;
+        margin: 15px 0;
+    }
+    .pump_insta_btn{
+        margin-bottom: 30px;
+    }
+    .pump_insta_items h2 {
+        padding: 0px 0 20px 0;
+    }
+    #pump_instra_work {
+        padding: 50px 0;
+    }
+    #our_service_part {
+        padding: 0px 0 69px 0;
+    }
+    #footer_part {
+        padding: 67px 0;
+        background: #f4f4f4;
+    }
+    .footer_logo{
+        padding-bottom: 40px;
+    }
+    .footer_content ul li a {
+        padding: 7px 0;
+    }
+}
+@media (max-width:575.98px){
+    .main_menu a img {
+        width: 100px;
+    }
+    .menu_btn {
+        width: 62px;
+        height: 43px;
+        line-height: 43px;
+        font-size: 14px;
+    }
+    .main_menu .navbar-collapse {
+        top: 75px;
+    }
+    #myNav ul li a {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .hero_content h1 {
+        font-size: 33px;
+        line-height: 55px;
+    }
+    .hero_content {
+        padding: 0;
+    }
+    #hero_part {
+        padding: 15px 0 50px 0;
+    }
+    .cbtn {
+        width: 140px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .counter_items h2 {
+        padding-bottom: 0px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .counter_items p{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 29px;
+        line-height: 40px;
+    }
+    .l_h2{
+        padding-bottom: 5px;
+    }
+    br{
+        display: none;
+    }
+    p{
+        font-size: 12px;
+    }
+    .insta_vid_wrapper .overly img{
+        width: 50px;
+    }
+    #insta_choose .insta_work_items {
+        padding: 16px 19px;
+        height: 358px;
+    }
+    .pump_section_icon {
+        display: none;
+    }
+    #insta_choose {
+        padding: 32px 0;
+    }
+    #insta_choose .container .choose_icon_shap {
+        top: -86px;
+    }
+    #pump_instra_work {
+        padding: 16px 0;
+    }
+    .pump_insta_items {
+        padding: 44px 38px;
+        margin: 15px 0;
+    }
+    .pump_sml{
+        padding: 0 13px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    .pump_insta_btn {
+        margin: 0 auto 23px auto;
+    }
+    .section_heading {
+        padding-bottom: 27px;
+    }
+    .pump_insta_items h2 {
+        padding: 0px 0 17px 0;
+    }
+    .pump_insta_items p {
+        padding-bottom: 8px;
+    }
+    .pump_insta_items h3{
+        padding-bottom: 19px;
+    }
+    .customer_items {
+        padding: 20px 18px 15px 16px;
+    }
+    .customer_items img {
+        margin-right: 4px;
+    }
+    .customer_items h3 {
+        padding-bottom: 15px;
+        font-size: 19px;
+    }
+    .customer_items h3 span {
+        margin: 5px 0 0 6px;
+    }
+    .customer_content {
+        padding: 10px 13px;
+    }
+    .customer_content i {
+        padding-bottom: 6px;
+    }
+    .customer_items_btm {
+        margin-top: 16px;
+    }
+    #our_service_part {
+        padding: 2px 0 38px 0;
+    }
+    #customer_part {
+        padding: 20px 0 40px 0;
+    }
+    #footer_part {
+        padding: 50px 0;
+    }
+    .footer_logo{
+        text-align: center;
+    }
+    .footer_content{
+        text-align: center;
+        margin-top: 25px;
+    }
+    .footer_content h3{
+        padding-bottom: 10px;
+    }
+    .footer_content ul li a {
+        font-size: 15px;
+        padding: 3px 0;
+    }
+    .footer_form{
+        margin-top: 25px;
+        text-align: center;
+    }
+    .footer_form h3{
+        padding-bottom: 10px;
+    }
+    .backtop {
+        right: 12px;
+        bottom: 18px;
+        height: 44px;
+        width: 44px;
+        line-height: 44px;
+    }
+    .menuFix {
+        height: 74px;
+    }
+    .instagram_like_dots{
+        display: none;
+    }
+    #instagram_like .container {
+        padding: 26px 15px;
+    }
+    .insta_work_items img{
+        width: 50px;
+    }
+    #insta_video {
+        padding: 26px 0 70px 0;
+    }
+    #our_service_part .accordion-button {
+        font-size: 16px;
+    }
+}
